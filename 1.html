@@ -4,91 +4,71 @@
 <head>
      <title>메이의 하루 - 메이와 하루</title>
      <meta charset="utf-8">
-     <style>
-          h1 {
-               font-size:45px;
-               text-align: center;
-               border-bottom:1px solid;
-               margin:0;
-          }
-
-          #active {
-               color:red;
-          }
-
-          .saw {
-               color:gray;
-          }
-
-          a {
-               color:black;
-               text-decoration: none;
-
-          }
-
-          .main {
-               text-align: left;
-               font-size:15px;
-               margin:0;
-          }
-     </style>
+     <link rel="stylesheet" href="1.css">
 </head>
 
 <body>
-     <p><a href="index.html" class="main">메인화면</p>
+     <h6><a href="index.html" class="main">메인화면</a></h6>
      <h1>메이와 하루</h1>
 
-     <ol><b>
-          <li><a href="1.html" class="saw" id="active">메이와 하루</a></li>
-          <li><a href="2.html">하루의 복막염 뿌시기</a></li>
-          <li><a href="3.html">미식가 메이</a></li>
-          <li><a href="4.html">집사의 필수 꿀템</a></li>
-        </b></ol>
-
-     <p>
-          <img src="메이.jpg" width="400px"><br>
-          <b><u>메이</u>(May)</b><br>
-          - <b>birth</b> : 01.May.21<br>
-          - <b>sex</b> : M<br>
-          - <b>breed</b> : korean short hair<br>
-          - +) 입이 짧은 편<br>
-          낮 시간 대부분 잠<br>
-          저녁시간~새벽 가장 활발함<br>
-     </p>
-     <p style="margin-top:40px;">
-          <img src="하루.jpg" width="400px"><br>
-          <b><u>하루</u>(Haru)</b><br>
-          - <b>birth</b> : 01.May.21<br>
-          - <b>sex</b> : M<br>
-          - <b>breed</b> : korean short hair<br>
-          - +) 식욕이 넘침<br>
-          10주차에 복막염을 앓음(현재 완치)<br>
-          집사와 비슷한 패턴으로 생활<br>
-          사람을 매우 좋아함<br>
-     </p>
-
-     <p>
-     <div id="disqus_thread"></div>
-     <script>
-          /**
-          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-          /*
-          var disqus_config = function () {
-          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-          };
-          */
-          (function () { // DON'T EDIT BELOW THIS LINE
-               var d = document, s = d.createElement('script');
-               s.src = 'https://web1-xzxnlpzsjx.disqus.com/embed.js';
-               s.setAttribute('data-timestamp', +new Date());
-               (d.head || d.body).appendChild(s);
-          })();
-     </script>
-     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-               Disqus.</a></noscript>
-     </p>
+     <div id="grid">
+          <div>       
+          <ol><b>
+                    <li><a href="1.html">메이와 하루</a></li>
+                    <li><a href="2.html">하루의 복막염 뿌시기</a></li>
+                    <li><a href="3.html">미식가 메이</a></li>
+                    <li><a href="4.html">집사의 필수 꿀템</a></li>
+               </b>
+          </ol>
+          </div>  
+          <div id="article">
+               <p>
+                    <img src="메이.jpg" width="300px" class="pro"><br>
+                    <b><u>메이</u>(May)</b><br>
+                    - <b>birth</b> : 01.May.21<br>
+                    - <b>sex</b> : M<br>
+                    - <b>breed</b> : korean short hair<br>
+                    - +) 입이 짧은 편<br>
+                    낮 시간 대부분 잠<br>
+                    저녁시간~새벽 가장 활발함<br>
+               </p>
+               <p style="margin-top:40px;">
+                    <img src="하루.jpg" width="300px" class="pro"><br>
+                    <b><u>하루</u>(Haru)</b><br>
+                    - <b>birth</b> : 01.May.21<br>
+                    - <b>sex</b> : M<br>
+                    - <b>breed</b> : korean short hair<br>
+                    - +) 식욕이 넘침<br>
+                    10주차에 복막염을 앓음(현재 완치)<br>
+                    집사와 비슷한 패턴으로 생활<br>
+                    사람을 매우 좋아함<br>
+               </p>
+     
+               <p>
+               <div id="disqus_thread"></div>
+               <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                         var d = document, s = d.createElement('script');
+                         s.src = 'https://web1-xzxnlpzsjx.disqus.com/embed.js';
+                         s.setAttribute('data-timestamp', +new Date());
+                         (d.head || d.body).appendChild(s);
+                    })();
+               </script>
+               <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                         powered by
+                         Disqus.</a></noscript>
+               </p>
+          </div>
+     </div>
 </body>
 
 </html>
